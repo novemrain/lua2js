@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <!--<block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>-->
+  <block>
+    <text class="log-item">此程序使用正则表达式,按规则将lua转换为javascript,转换包括关键字,运算符和库函数,转换保持了原本的代码结构,但仍需一部分人工转换如pairs,until等.适用于Cocos-lua->Cocos-js的项目转换</text>
+    <text class="log-item">游戏开发者 冯校长</text>
+    <text class="log-item">QQ393422044</text>
+    <text bindtap="onBlog" class="log-item">http://www.cnblogs.com/billyrun/</text>
+    
+  </block>
+</view>

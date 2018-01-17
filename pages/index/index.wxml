@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="author">
+    <button bindtap="onAuthor">使用说明</button>
+</view>
+<view class="container">
+  
+
+
+  <!--<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>-->
+  <textarea class='input' bindinput="onInput" placeholder="请在此输入或粘贴lua脚本,转换结果将自动复制到系统剪切板,转换结果将自动复制到系统剪切板,转换结果将自动复制到系统剪切板" value="{{inputValue}}" maxlength="-1"/>
+  <text class='result' selectable='true'>{{result}}</text>
+
+  
+</view>
+

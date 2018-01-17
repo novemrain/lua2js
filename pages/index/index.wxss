@@ -1,0 +1,33 @@
+/**index.wxss**/
+.author {
+  /*position:absolute;*/
+  flex-direction: column;
+  /*bottom: 0px;*/
+  width:100%;
+}
+.input {
+  background:#EEE;
+  width:100%;
+}
+.result {
+  
+  text-align:center;
+  margin:0 auto;
+  width:100%;
+}
+/*
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  margin-bottom: 0px;
+}
+
+.usermotto {
+  margin-top: 0px;
+}*/
